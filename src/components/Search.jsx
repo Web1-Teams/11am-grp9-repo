@@ -14,14 +14,24 @@ const Search = ({ onSearchChange }) => {
   };
 
   return (
-    <div style={{ marginTop: "400px", textAlign: "center" }}>
-      <div className="input-group" style={{ maxWidth: "600px", margin: "auto" }}>
-        <input
+    
+    <div style={{ marginTop: "108px",marginBottom: "500px", textAlign: "center" }}>
+      <div 
+        className="input-group" 
+        style={{
+          maxWidth: "600px",
+          margin: "0 auto", 
+          display: "flex", 
+          alignItems: "center", 
+          justifyContent: "center"
+        }}
+      >
+        <input 
           type="search"
           id="search-bar"
           placeholder="Enter book title..."
           className="form-control"
-          style={{ height: "40px" }}
+          style={{ height: "40px", flex: "1" }}
           value={searchQuery}
           onChange={handleInputChange}
         />
@@ -33,6 +43,7 @@ const Search = ({ onSearchChange }) => {
           Search
         </button>
       </div>
+      <div></div>
     </div>
   );
 };

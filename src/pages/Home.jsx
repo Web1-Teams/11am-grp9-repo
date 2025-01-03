@@ -55,7 +55,9 @@ const Home = () => {
       <Search onSearchChange={handleSearchChange} />
       {loading && <p>Loading...</p>}
       {error && <p style={{ color: "red" }}>{error}</p>}
-      <h3>{resultTitle}</h3>
+      <h3 style={{ paddingLeft: "108px", marginTop: "20px" }}>
+  {resultTitle}
+</h3>
       <SuggestedBooks suggestedBooks={books} />
     </div>
   );
