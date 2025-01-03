@@ -15,7 +15,7 @@ const Search = ({ onSearchChange }) => {
 
   return (
     
-    <div style={{ marginTop: "108px",marginBottom: "500px", textAlign: "center" }}>
+    <div style={{ marginTop: "20px",marginBottom: "20px", textAlign: "center" }}>
       <div 
         className="input-group" 
         style={{
@@ -37,8 +37,10 @@ const Search = ({ onSearchChange }) => {
         />
         <button
           className="btn btn-primary"
-          style={{ height: "40px", marginLeft: "5px" }}
+          style={{ height: "40px", marginLeft: "5px",backgroundColor: "#089da1",
+          }}
           onClick={handleSearch}
+
         >
           Search
         </button>
