@@ -3,7 +3,8 @@ import ReviewComponent from '../components/ReviewComponent';
 const Reviews = () => {
   return (
     <div >
-Reviews    </div>
+      3
+    </div>
   )
 }
 

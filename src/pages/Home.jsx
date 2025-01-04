@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Search from "../components/Search";
 import SuggestedBooks from "../components/SuggestedBooks";
 import Welcome from "../components/Welcome";
+import Footer from "../components/Footer";
 const Home = () => {
   const [searchQuery, setSearchQuery] = useState("the lost world");
   const [books, setBooks] = useState([]);
@@ -52,7 +53,6 @@ const Home = () => {
     fetchBooks(searchQuery);
   }, [searchQuery]);
 
-  // CSS loader styles
   const loaderContainer = {
     width: "48px",
     height: "48px",
