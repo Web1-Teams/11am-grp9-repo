@@ -19,6 +19,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
     { to: "/featured", label: "Featured" },
     { to: "/reviews", label: "Reviews" },
   ];
+  
 
   const navbarStyle = {
     boxShadow: "0 0 8px #089da1",

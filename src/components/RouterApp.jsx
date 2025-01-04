@@ -2,9 +2,9 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About";
-import Arrivals from "../pages/Arrivals"
-import Featured from "../pages/Arrivals"
-import Reviews from "../pages/Arrivals"
+import Arrivals from "../pages/Arrivals";
+import Featured from "../pages/Featured";
+import Reviews from "../pages/Reviews";
 
 const RouterApp = () => {
   return (

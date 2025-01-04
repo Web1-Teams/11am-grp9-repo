@@ -16,12 +16,12 @@ function App() {
         backgroundColor: darkMode ? "#121212" : "#FFF", 
         color: darkMode ? "#FFF" : "#000", 
         transition: "background-color 0.3s ease-in-out, color 0.3s ease-in-out",
-        minHeight: "100vh", // Ensures the background covers the entire page
+        minHeight: "100vh", 
       }}
     >
       <BrowserRouter>
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-        <RouterApp darkMode={darkMode} />
+        <RouterApp />
       </BrowserRouter>
     </div>
   );
